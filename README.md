@@ -1,6 +1,6 @@
 # Subwave
 
-Subwave is a mobile app designed to transcribe subway announcements in noisy environments and deliver the transcribed announcements directly to your listening device. This helps users—especially those with hearing difficulties or in loud settings—never miss important subway information.
+Subwave is a mobile app designed to transcribe subway announcements in noisy environments and deliver the transcribed announcements directly to your listening device. This helps users, especially those with hearing difficulties or in loud settings, never miss important subway information.
 
 ---
 
