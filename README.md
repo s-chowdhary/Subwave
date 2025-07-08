@@ -28,6 +28,7 @@ Subwave is a mobile app designed to transcribe subway announcements in noisy env
 
 - [Node.js](https://nodejs.org/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Google Cloud Speech-to-Text API key
 
 ### Installation
 
@@ -35,6 +36,22 @@ Subwave is a mobile app designed to transcribe subway announcements in noisy env
 git clone https://github.com/yourusername/subwave.git
 cd subwave
 npm install
+```
+
+### Setting Up Google API Key
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project or select an existing one
+3. Enable the Speech-to-Text API
+4. Create credentials (API Key)
+5. Create a `.env` file in the project root and add your API key:
+   ```
+   GOOGLE_API_KEY=your-api-key-here
+   ```
+
+### Running the Project
+
+```bash
 npx expo start
 ```
 
